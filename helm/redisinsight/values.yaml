@@ -6,7 +6,7 @@ enabled: true
 replicaCount: 1
 
 image:
-  repository: redis/redisinsight:2.46
+  repository: redis/redisinsight
   pullPolicy: IfNotPresent
   versionOverride: "*"
 

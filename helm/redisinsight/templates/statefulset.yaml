@@ -50,14 +50,6 @@ spec:
             - mountPath: "/data"
               name: redisinsight-volume
           {{- end }}
-          livenessProbe:
-            httpGet:
-              path: {{ .Values.healthCheckUrl | quote }}
-              port: http-ui
-          readinessProbe:
-            httpGet:
-              path: {{ .Values.healthCheckUrl | quote }}
-              port: http-ui
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:

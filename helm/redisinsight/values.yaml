@@ -10,6 +10,7 @@ image:
   pullPolicy: IfNotPresent
   versionOverride: "*"
 
+healthCheckUrl: /api/health/
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""

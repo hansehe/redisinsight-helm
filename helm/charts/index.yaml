@@ -3,7 +3,27 @@ entries:
   redisinsight:
   - apiVersion: v2
     appVersion: "2.46"
-    created: "2024-04-05T03:00:31.8621353+02:00"
+    created: "2024-08-20T16:25:47.8469142+02:00"
+    description: Redisinsight helm chart for Kubernetes
+    digest: 48a876ab74fbe94ca79656439aa6ad450ec61623915f17da10b1e7d0fda652cc
+    home: https://github.com/hansehe/redisinsight-helm
+    icon: https://raw.githubusercontent.com/hansehe/redisinsight-helm/master/helm/redisinsight.png
+    keywords:
+    - redis
+    - redisinsight
+    maintainers:
+    - email: hans.erik.heggem@gmail.com
+      name: hansehe
+    name: redisinsight
+    sources:
+    - https://github.com/hansehe/redisinsight-helm
+    type: application
+    urls:
+    - redisinsight-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "2.46"
+    created: "2024-08-20T16:25:47.8459792+02:00"
     description: Redisinsight helm chart for Kubernetes
     digest: 8c7d9d221db933db600fee06fbb1c71c93750a8d5c043cebc40b5d07fa0c4bcf
     home: https://github.com/hansehe/redisinsight-helm
@@ -21,4 +41,4 @@ entries:
     urls:
     - redisinsight-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-05T03:00:31.7697145+02:00"
+generated: "2024-08-20T16:25:47.834611+02:00"
